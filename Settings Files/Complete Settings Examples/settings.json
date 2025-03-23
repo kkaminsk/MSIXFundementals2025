@@ -1,0 +1,38 @@
+// Version: 1.0
+// Description: Default settings.json file with lots of possible settings.
+{
+
+"$schema": "https://aka.ms/winget-settings.schema.json",
+
+"downloadBehavior": {
+        "defaultDownloadDirectory": "C:/Windows/Temp"
+    },
+
+"telemetry": {
+    "disable": true
+},
+
+"source": {
+    "autoUpdateIntervalInMinutes": 0
+},
+
+"logging": {
+    "level": "verbose"
+},
+
+"InstallPrefReq": {
+    "locale": [ "en-US", "en-CA" ],
+    "installerTypes": ["msix"],
+    "architectures": ["x64"],
+    "scope": ["machine"]
+},
+
+"installBehavior": {
+    "preferences": {
+        "locale": [ "en-US", "en-CA" ],
+        "scope": "machine",
+        "installerTypes": ["msix"],
+        "architectures": ["x64"],
+}
+}
+}
