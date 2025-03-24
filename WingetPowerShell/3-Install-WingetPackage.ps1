@@ -1,0 +1,1 @@
+Install-WinGetPackage -Id RARLab.WinRAR
