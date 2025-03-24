@@ -1,0 +1,1 @@
+winget settings export > C:\winget-settings.json
